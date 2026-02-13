@@ -1,2 +1,3 @@
 FROM almalinux:9
-CMD ["png","google.com"]
+#CMD ["png","google.com"]
+ENTRYPOINT ["png","google.com"]
